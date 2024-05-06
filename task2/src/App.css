@@ -1,0 +1,73 @@
+body{
+  background-color: rgba(184, 203, 241, 0.795)
+}
+
+.App {
+  text-align: center;
+}
+h1{
+  margin: 30px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+nav {
+  background-color: #333; /* Background color of the navbar */
+  padding: 10px 20px; /* Padding around the links */
+}
+
+ul {
+  list-style-type: none; /* Remove bullets from the list */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Margin between each list item */
+}
+
+li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+a {
+  color: white; /* Text color of the links */
+  text-decoration: none; /* Remove underline from the links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
